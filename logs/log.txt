@@ -1,6 +1,6 @@
-12.10.2016 10:34:53 [main] INFO  com.chatovich.present.creator.PresentCreator - PresentCreator A confention Chocolate dark - 30g. (ccal = 400, sugar = 35%) was created, present size - 1
-12.10.2016 10:34:53 [main] ERROR com.chatovich.present.creator.PresentCreator - PresentCreator At line (  ): line is empty.
-12.10.2016 10:34:53 [main] ERROR com.chatovich.present.creator.PresentCreator - PresentCreator At line ( biscuit, 200, 300, as ): number data is not valid
+12.10.2016 11:37:37 [main] INFO  com.chatovich.present.creator.PresentCreator - PresentCreator A confention Chocolate dark - 30g. (ccal = 400, sugar = 35%) was created, present size - 1
+12.10.2016 11:37:37 [main] ERROR com.chatovich.present.creator.PresentCreator - PresentCreator At line (  ): line is empty.
+12.10.2016 11:37:37 [main] ERROR com.chatovich.present.creator.PresentCreator - PresentCreator At line ( biscuit, 200, 300, as ): number data is not valid
 java.lang.NumberFormatException: For input string: "as"
 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[?:1.8.0_74]
 	at java.lang.Integer.parseInt(Integer.java:580) ~[?:1.8.0_74]
@@ -12,8 +12,8 @@ java.lang.NumberFormatException: For input string: "as"
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
-12.10.2016 10:34:53 [main] ERROR com.chatovich.present.creator.PresentCreator - PresentCreator At line ( candy, -100, 350, 60 ): number data couldn't be negative.
-12.10.2016 10:34:53 [main] ERROR com.chatovich.present.creator.PresentCreator - PresentCreator At line ( chocolate (white), , 500, 45 ): number data is not valid
+12.10.2016 11:37:37 [main] ERROR com.chatovich.present.creator.PresentCreator - PresentCreator At line ( candy, -100, 350, 60 ): number data couldn't be negative.
+12.10.2016 11:37:37 [main] ERROR com.chatovich.present.creator.PresentCreator - PresentCreator At line ( chocolate (white), , 500, 45 ): number data is not valid
 java.lang.NumberFormatException: For input string: ""
 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[?:1.8.0_74]
 	at java.lang.Integer.parseInt(Integer.java:592) ~[?:1.8.0_74]
@@ -25,7 +25,7 @@ java.lang.NumberFormatException: For input string: ""
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
-12.10.2016 10:34:53 [main] ERROR com.chatovich.present.creator.PresentCreator - PresentCreator At line ( chocolate (bk), 200, 300,10 ):
+12.10.2016 11:37:37 [main] ERROR com.chatovich.present.creator.PresentCreator - PresentCreator At line ( chocolate (bk), 200, 300,10 ):
 com.chatovich.present.exception.WrongDataException: There is no bk chocolate in the shop.
 	at com.chatovich.present.factory.ChocolateFactory.createConfention(ChocolateFactory.java:23) ~[epam/:?]
 	at com.chatovich.present.factory.ChocolateFactory.createConfention(ChocolateFactory.java:11) ~[epam/:?]
@@ -36,7 +36,7 @@ com.chatovich.present.exception.WrongDataException: There is no bk chocolate in 
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
-12.10.2016 10:34:53 [main] ERROR com.chatovich.present.creator.PresentCreator - PresentCreator At line ( candy with filling, 50, 100,10 ):
+12.10.2016 11:37:37 [main] ERROR com.chatovich.present.creator.PresentCreator - PresentCreator At line ( candy with filling, 50, 100,10 ):
 com.chatovich.present.exception.WrongDataException: The type of confention is not indicated.
 	at com.chatovich.present.creator.PresentParser.parseConfentionType(PresentParser.java:53) ~[epam/:?]
 	at com.chatovich.present.factory.CandyWithFillingFactory.createConfention(CandyWithFillingFactory.java:17) ~[epam/:?]
@@ -48,7 +48,7 @@ com.chatovich.present.exception.WrongDataException: The type of confention is no
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
-12.10.2016 10:34:53 [main] ERROR com.chatovich.present.creator.PresentCreator - PresentCreator At line ( chocolate ):
+12.10.2016 11:37:37 [main] ERROR com.chatovich.present.creator.PresentCreator - PresentCreator At line ( chocolate ):
 com.chatovich.present.exception.WrongDataException: There is not enough info for creating a confention.
 	at com.chatovich.present.creator.PresentParser.parseByDelimeter(PresentParser.java:21) ~[epam/:?]
 	at com.chatovich.present.creator.PresentCreator.createPresent(PresentCreator.java:32) [epam/:?]
@@ -58,7 +58,7 @@ com.chatovich.present.exception.WrongDataException: There is not enough info for
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
-12.10.2016 10:34:53 [main] ERROR com.chatovich.present.creator.PresentCreator - PresentCreator At line ( hjjgk, 200,100,20 ):
+12.10.2016 11:37:37 [main] ERROR com.chatovich.present.creator.PresentCreator - PresentCreator At line ( hjjgk, 200,100,20 ):
 com.chatovich.present.exception.WrongDataException: There is no such confention in the shop.
 	at com.chatovich.present.factory.DefineConfentionFactory.defineFactory(DefineConfentionFactory.java:16) ~[epam/:?]
 	at com.chatovich.present.creator.PresentCreator.createPresent(PresentCreator.java:41) [epam/:?]
@@ -68,16 +68,16 @@ com.chatovich.present.exception.WrongDataException: There is no such confention 
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
-12.10.2016 10:34:53 [main] INFO  com.chatovich.present.creator.PresentCreator - PresentCreator A confention CandyWithFilling cream - 50g. (ccal = 450, sugar = 35%) was created, present size - 2
-12.10.2016 10:34:53 [main] INFO  com.chatovich.present.creator.PresentCreator - PresentCreator A confention CandyWithFilling coconut - 50g. (ccal = 480, sugar = 40%) was created, present size - 3
-12.10.2016 10:34:53 [main] INFO  com.chatovich.present.creator.PresentCreator - PresentCreator A confention CandyWithFilling nuts - 70g. (ccal = 500, sugar = 50%) was created, present size - 4
-12.10.2016 10:34:53 [main] INFO  com.chatovich.present.creator.PresentCreator - PresentCreator A confention Biscuit - 100g. (kcal = 350, sugar = 42%) was created, present size - 5
-12.10.2016 10:34:53 [main] INFO  com.chatovich.present.runner.PresentRunner - PresentRunner Christmas present was created, its weight is 300, present sorted byKcal: 
-12.10.2016 10:34:53 [main] INFO  com.chatovich.present.runner.PresentRunner - PresentRunner Biscuit - 100g. (kcal = 350, sugar = 42%)
-12.10.2016 10:34:53 [main] INFO  com.chatovich.present.runner.PresentRunner - PresentRunner Chocolate dark - 30g. (ccal = 400, sugar = 35%)
-12.10.2016 10:34:53 [main] INFO  com.chatovich.present.runner.PresentRunner - PresentRunner CandyWithFilling cream - 50g. (ccal = 450, sugar = 35%)
-12.10.2016 10:34:53 [main] INFO  com.chatovich.present.runner.PresentRunner - PresentRunner CandyWithFilling coconut - 50g. (ccal = 480, sugar = 40%)
-12.10.2016 10:34:53 [main] INFO  com.chatovich.present.runner.PresentRunner - PresentRunner CandyWithFilling nuts - 70g. (ccal = 500, sugar = 50%)
-12.10.2016 10:34:53 [main] INFO  com.chatovich.present.runner.PresentRunner - PresentRunner Confentions with sugar % between 20 and 40: 
-12.10.2016 10:34:53 [main] INFO  com.chatovich.present.runner.PresentRunner - PresentRunner Chocolate dark - 30g. (ccal = 400, sugar = 35%)
-12.10.2016 10:34:53 [main] INFO  com.chatovich.present.runner.PresentRunner - PresentRunner CandyWithFilling cream - 50g. (ccal = 450, sugar = 35%)
+12.10.2016 11:37:37 [main] INFO  com.chatovich.present.creator.PresentCreator - PresentCreator A confention CandyWithFilling cream - 50g. (ccal = 450, sugar = 35%) was created, present size - 2
+12.10.2016 11:37:37 [main] INFO  com.chatovich.present.creator.PresentCreator - PresentCreator A confention CandyWithFilling coconut - 50g. (ccal = 480, sugar = 40%) was created, present size - 3
+12.10.2016 11:37:37 [main] INFO  com.chatovich.present.creator.PresentCreator - PresentCreator A confention CandyWithFilling nuts - 70g. (ccal = 500, sugar = 50%) was created, present size - 4
+12.10.2016 11:37:37 [main] INFO  com.chatovich.present.creator.PresentCreator - PresentCreator A confention Biscuit - 100g. (kcal = 350, sugar = 42%) was created, present size - 5
+12.10.2016 11:37:37 [main] INFO  com.chatovich.present.runner.PresentRunner - PresentRunner Christmas present was created, its weight is 300, present sorted byKcal: 
+12.10.2016 11:37:37 [main] INFO  com.chatovich.present.runner.PresentRunner - PresentRunner Biscuit - 100g. (kcal = 350, sugar = 42%)
+12.10.2016 11:37:37 [main] INFO  com.chatovich.present.runner.PresentRunner - PresentRunner Chocolate dark - 30g. (ccal = 400, sugar = 35%)
+12.10.2016 11:37:37 [main] INFO  com.chatovich.present.runner.PresentRunner - PresentRunner CandyWithFilling cream - 50g. (ccal = 450, sugar = 35%)
+12.10.2016 11:37:37 [main] INFO  com.chatovich.present.runner.PresentRunner - PresentRunner CandyWithFilling coconut - 50g. (ccal = 480, sugar = 40%)
+12.10.2016 11:37:37 [main] INFO  com.chatovich.present.runner.PresentRunner - PresentRunner CandyWithFilling nuts - 70g. (ccal = 500, sugar = 50%)
+12.10.2016 11:37:37 [main] INFO  com.chatovich.present.runner.PresentRunner - PresentRunner Confentions with sugar % between 20 and 40: 
+12.10.2016 11:37:37 [main] INFO  com.chatovich.present.runner.PresentRunner - PresentRunner Chocolate dark - 30g. (ccal = 400, sugar = 35%)
+12.10.2016 11:37:37 [main] INFO  com.chatovich.present.runner.PresentRunner - PresentRunner CandyWithFilling cream - 50g. (ccal = 450, sugar = 35%)
