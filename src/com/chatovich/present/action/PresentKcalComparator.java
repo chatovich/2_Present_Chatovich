@@ -11,7 +11,7 @@ public class PresentKcalComparator implements Comparator<Confection> {
 
     @Override
     public int compare(Confection a, Confection b) {
-        
+
         return a.getKcal() - b.getKcal();
     }
 }
