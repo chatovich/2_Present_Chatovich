@@ -1,0 +1,13 @@
+chocolate (dark), 30, 400, 35
+
+biscuit, 200, 300, as
+candy, -100, 350, 60
+chocolate (white), , 500, 45
+chocolate (bk), 200, 300,10
+candy with filling, 50, 100,10
+chocolate
+hjjgk, 200,100,20
+candy with filling (cream),50,450,35
+candy with filling (coconut),50,480,40
+candy with filling (nuts),70,   500, 50
+biscuit, 100, 350, 42
